@@ -68,7 +68,7 @@ io.on('connection', function(client){
 
 function sendTelegramMessage(chatId, text, parseMode) {
     request
-        .post('https://api.telegram.org/bot' + process.env.TELEGRAM_TOKEN + '/sendMessage')
+        .post('https://api.telegram.org/bot' + process.env.TELEGRAM_TOKEN + 626445198:AAE6c3EfS8G-1ZDWffn9FVhXj8iYqW-C1vQ'/sendMessage')
         .form({
             "chat_id": chatId,
             "text": text,
